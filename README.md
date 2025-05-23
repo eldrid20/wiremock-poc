@@ -20,3 +20,8 @@
 
 ## How to run Wiremock server app
 * Run ./gradlew run
+
+
+## Reference
+* https://wiremock.org/docs/
+* https://wiremock.org/docs/standalone/java-jar/
