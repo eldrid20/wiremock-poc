@@ -1,6 +1,22 @@
-# How to modify request/response sample
+## How to add request/response sample
+* Add mappings into src/main/resources/mappings 
+  * Example mapping
+  ```
+  {
+  "request": {
+    "method": "GET",
+    "url": "/api/request1"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "response-1.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+  ```
+  * Response files stored in src/main/resources/__files
 
 
-# How to run Wiremock server app
-
+## How to run Wiremock server app
 * Run ./gradlew run
