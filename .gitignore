@@ -35,6 +35,7 @@ Thumbs.db
 build/
 **/gradlew
 **/gradlew.bat
+.gradle
 
 # WireMock mappings and files (if dynamically generated)
 wiremock/mappings/*.bak
