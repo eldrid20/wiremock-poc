@@ -1,0 +1,41 @@
+# Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA / Eclipse
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Build directories
+/target/
+/build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+
+# Gradle
+.gradle/
+build/
+**/gradlew
+**/gradlew.bat
+
+# WireMock mappings and files (if dynamically generated)
+wiremock/mappings/*.bak
+wiremock/__files/*.bak
