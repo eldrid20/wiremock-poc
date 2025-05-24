@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/login"
+  },
+  "response": {
+    "status": 401,
+    "bodyFileName": "api-login-failed.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
+
